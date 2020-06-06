@@ -1,8 +1,15 @@
 ### USB Sniffer
 
-This core is a USB analyzer (USB bus sniffer). It converts from a UTMI interface to a bus-mastering AXI-4 memory interface.
+Github: [https://github.com/ultraembedded/core_usb_sniffer](https://github.com/ultraembedded/core_usb_sniffer)
+
+This core is a HS/FS USB2.0 analyzer (USB bus sniffer).  
+The core monitors a UTMI interface and logs the traffic seen to a memory buffer via an AXI-4 bus master interface.  
+The log format can be extracted continuously (continuous capture mode) or the core can stop capturing when the memory buffer is full (one-shot mode).
 
 Configuration of the IP is performed using an AXI4-Lite slave interface.
+
+This core has been used to produce a High/Full Speed USB 2.0 Capture Device;
+[https://github.com/ultraembedded/usb2sniffer](https://github.com/ultraembedded/usb2sniffer)
 
 #### Features
 
