@@ -8,8 +8,7 @@ The log format can be extracted continuously (continuous capture mode) or the co
 
 Configuration of the IP is performed using an AXI4-Lite slave interface.
 
-This core has been used to produce a High/Full Speed USB 2.0 Capture Device;
-[https://github.com/ultraembedded/usb2sniffer](https://github.com/ultraembedded/usb2sniffer)
+This core has been used to produce a [USB 2.0 Capture Device](https://github.com/ultraembedded/usb2sniffer).
 
 #### Features
 
